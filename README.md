@@ -1,2 +1,2 @@
 # ProFixAppTaller
-Aplicación integral para gestionar un centro de diagnóstico y reparación de vehículos.
+Aplicación integral para gestionar un centro de diagnóstico y reparación de vehículos.Esta herramienta permite administrar los datos del personal del taller, almacenar información relevante sobre cada visita, y cuenta con un sistema de autorización para supervisar las reparaciones. Además, facilita la gestión del inventario de productos en las diferentes sucursales del taller en el país. Una solución completa para optimizar la eficiencia y el control del negocio.

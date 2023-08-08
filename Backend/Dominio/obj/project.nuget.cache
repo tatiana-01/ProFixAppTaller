@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "c4u+xlPtFUN3p50HQHO8ECoikz93c0kSA/Umj+7SN10C6V+FFTZu9AIyEl2xYMnpVIBVP3aa6BuwEqvr0QwZGA==",
+  "success": true,
+  "projectFilePath": "/home/skylab-132/Desktop/ProFixTaller/Backend/Dominio/Dominio.csproj",
+  "expectedPackageFiles": [
+    "/home/skylab-132/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/skylab-132/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

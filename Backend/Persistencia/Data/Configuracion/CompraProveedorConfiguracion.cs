@@ -2,16 +2,15 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class CompraProveedorConfiguracion : IEntityTypeConfiguration<CompraProveedor>
     {
         public void Configure(EntityTypeBuilder<CompraProveedor> builder)
         {
-            builder.ToTable("CompraProveedor");
+            builder.ToTable("CompraProveedores");
             
             builder.Property(p => p.Fecha)
-            .HasColumnType("date")
+            .HasColumnType("dateTime")
             .IsRequired();
 
             builder.Property(p => p.Total)
@@ -23,4 +22,3 @@ namespace Persistencia.Data.Configuracion
             .HasForeignKey(p => p.IdProveedor);
         }
     }
-}

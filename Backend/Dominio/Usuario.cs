@@ -4,5 +4,5 @@ namespace Dominio;
         public string UsuarioPersona {get;set;}
         public string Contraseña {get;set;}
         public Persona Persona {get;set;}
-        public int IdPersona {get;set;}
+        public string IdPersona {get;set;}
     }

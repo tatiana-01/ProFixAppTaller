@@ -4,8 +4,6 @@ namespace Dominio;
     {
         public string Descripcion {get;set;}
         public decimal Tiempo {get;set;}
-        public ProductoStock ProductoStock {get;set;}
-        public int IdProductoStock {get;set;}
         public decimal Cantidad {get;set;}
         public string Unidad {get;set;}
         public decimal ValorTotal {get;set;}
@@ -17,5 +15,7 @@ namespace Dominio;
         public int IdEstado {get;set;}
         public Orden Orden {get;set;}
         public int IdOrden {get;set;}
+        public ICollection<ProductoStockReparacion> ProductosStockReparaciones {get;set;}
+        public ICollection<ReparacionEmpleado> ReparacionesEmpleados {get;set;}
 
     }

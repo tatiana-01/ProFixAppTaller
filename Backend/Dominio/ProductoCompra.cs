@@ -10,4 +10,5 @@ namespace Dominio;
         public string Unidad {get;set;}
         public decimal ValorUnitario {get;set;}
         public decimal ValorTotal {get;set;}
+        
     }

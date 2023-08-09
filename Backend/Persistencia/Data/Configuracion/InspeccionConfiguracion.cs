@@ -2,13 +2,12 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class InspeccionConfiguracion : IEntityTypeConfiguration<Inspeccion>
     {
         public void Configure(EntityTypeBuilder<Inspeccion> builder)
         {
-            builder.ToTable("Inspeccion");
+            builder.ToTable("Inspecciones");
 
             builder.Property(p => p.PuertaFrontalDerecha)
             .IsRequired()
@@ -59,4 +58,3 @@ namespace Persistencia.Data.Configuracion
             .HasMaxLength(300);
         }
     }
-}

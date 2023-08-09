@@ -9,4 +9,5 @@ namespace Dominio;
         public CalidadProducto CalidadProducto {get;set;}
         public int IdCalidadProducto {get;set;}
         public ICollection<ProductoStock> ProductosStocks {get;set;}
+        public ICollection<ProductoCompra> ProductosCompras {get;set;}
     }

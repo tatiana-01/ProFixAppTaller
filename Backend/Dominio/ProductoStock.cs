@@ -12,4 +12,6 @@ namespace Dominio;
         public Sucursal Sucursal {get;set;}
         public int IdSucursal {get;set;}
         public string Descripcion {get;set;}
+        public ICollection<ProductoStockReparacion> ProductosStockReparaciones {get;set;}
+        
     }

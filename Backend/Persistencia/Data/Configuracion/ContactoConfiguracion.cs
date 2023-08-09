@@ -2,13 +2,12 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class ContactoConfiguracion : IEntityTypeConfiguration<Contacto>
     {
         public void Configure(EntityTypeBuilder<Contacto> builder)
         {
-            builder.ToTable("Contacto");
+            builder.ToTable("Contactos");
             
             builder.Property(p => p.ContactoPersona)
                 .IsRequired()
@@ -23,4 +22,3 @@ namespace Persistencia.Data.Configuracion
             .HasForeignKey(p => p.IdAreaContacto);
         }
     }
-}

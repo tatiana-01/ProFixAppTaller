@@ -2,13 +2,12 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class EmpleadoConfiguracion : IEntityTypeConfiguration<Empleado>
     {
         public void Configure(EntityTypeBuilder<Empleado> builder)
         {
-            builder.ToTable("Empleado");
+            builder.ToTable("Empleados");
             
             builder.Property(p => p.Salario)
             .HasPrecision(65,5)
@@ -25,7 +24,14 @@ namespace Persistencia.Data.Configuracion
             builder.HasOne(p => p.Persona)
             .WithOne()
             .HasForeignKey<Empleado>(p => p.IdPersona);
+
+            builder.HasOne(p => p.Sucursal)
+            .WithMany(p => p.Empleados)
+            .HasForeignKey(p => p.IdSucursal);
+
+            builder.HasOne(p => p.Especialidad)
+            .WithMany(p => p.Empleados)
+            .HasForeignKey(p => p.IdEspecialidad);
             
         }
     }
-}

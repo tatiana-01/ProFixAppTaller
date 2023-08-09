@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\ProFixApi\\ProFixApi.csproj": {}
+    "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/ProFixApi/ProFixApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\Aplicacion.csproj": {
+    "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\Tatiana Paredes C\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\obj\\",
+        "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
+        "packagesPath": "/home/apolm01-033/.nuget/packages/",
+        "outputPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tatiana Paredes C\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-033/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj"
+              "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj": {
+                "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj"
               },
-              "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\Persistencia.csproj"
+              "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj": {
+                "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj"
               }
             }
           }
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj": {
+    "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Tatiana Paredes C\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\obj\\",
+        "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj",
+        "packagesPath": "/home/apolm01-033/.nuget/packages/",
+        "outputPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tatiana Paredes C\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-033/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -118,7 +118,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
@@ -137,21 +137,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\Persistencia.csproj": {
+    "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Tatiana Paredes C\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Persistencia\\obj\\",
+        "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/apolm01-033/.nuget/packages/",
+        "outputPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tatiana Paredes C\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-033/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -163,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Dominio\\Dominio.csproj"
+              "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj": {
+                "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj"
               }
             }
           }
@@ -185,7 +185,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -214,21 +214,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\ProFixApi\\ProFixApi.csproj": {
+    "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/ProFixApi/ProFixApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\ProFixApi\\ProFixApi.csproj",
+        "projectUniqueName": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/ProFixApi/ProFixApi.csproj",
         "projectName": "ProFixApi",
-        "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\ProFixApi\\ProFixApi.csproj",
-        "packagesPath": "C:\\Users\\Tatiana Paredes C\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\ProFixApi\\obj\\",
+        "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/ProFixApi/ProFixApi.csproj",
+        "packagesPath": "/home/apolm01-033/.nuget/packages/",
+        "outputPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/ProFixApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tatiana Paredes C\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-033/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -240,8 +240,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\Users\\Tatiana Paredes C\\Desktop\\ProFixTaller\\Backend\\Aplicacion\\Aplicacion.csproj"
+              "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj": {
+                "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj"
               }
             }
           }
@@ -264,15 +264,17 @@
               "target": "Package",
               "version": "[7.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.5.0, )"
             }
@@ -296,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

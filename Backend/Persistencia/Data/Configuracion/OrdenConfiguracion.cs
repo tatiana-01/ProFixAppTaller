@@ -2,13 +2,12 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class OrdenConfiguracion : IEntityTypeConfiguration<Orden>
     {
         public void Configure(EntityTypeBuilder<Orden> builder)
         {
-            builder.ToTable("Orden");
+            builder.ToTable("Ordenes");
 
             builder.Property(p => p.Detalles)
             .IsRequired()
@@ -23,4 +22,3 @@ namespace Persistencia.Data.Configuracion
             .HasForeignKey(p => p.IdEstado);
         }
     }
-}

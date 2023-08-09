@@ -13,5 +13,7 @@ namespace Dominio;
        public decimal Salario {get;set;}
        public Especialidad Especialidad {get;set;}
        public int IdEspecialidad {get;set;}
+       public ICollection<ReparacionEmpleado> ReparacionesEmpleados {get;set;}
+       public ICollection<Visita> Visitas {get;set;}
 
     }

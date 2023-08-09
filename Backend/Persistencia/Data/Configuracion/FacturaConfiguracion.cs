@@ -2,13 +2,12 @@ using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuracion
-{
+namespace Persistencia.Data.Configuracion;
     public class FacturaConfiguracion : IEntityTypeConfiguration<Factura>
     {
         public void Configure(EntityTypeBuilder<Factura> builder)
         {
-            builder.ToTable("Factura");
+            builder.ToTable("Facturas");
 
             builder.Property(p => p.ValorTotalRepuestos)
             .HasPrecision(65,5)
@@ -23,7 +22,7 @@ namespace Persistencia.Data.Configuracion
             .IsRequired();
 
             builder.Property(p => p.FechaSalida)
-            .HasColumnType("date")
+            .HasColumnType("dateTime")
             .IsRequired();
 
             builder.HasOne(p => p.MetodoDePago)
@@ -39,4 +38,3 @@ namespace Persistencia.Data.Configuracion
             .HasForeignKey<Factura>(p => p.IdOrden);
         }
     }
-}

@@ -5446,24 +5446,25 @@
       "Dominio >= 1.0.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.6.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
+      "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Persistencia >= 1.0.0",
       "itext7.pdfhtml >= 5.0.1"
     ]
   },
   "packageFolders": {
-    "/home/apolm01-033/.nuget/packages/": {}
+    "/home/skylab-133/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
+      "projectUniqueName": "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
-      "packagesPath": "/home/apolm01-033/.nuget/packages/",
-      "outputPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Aplicacion/obj/",
+      "projectPath": "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Aplicacion/Aplicacion.csproj",
+      "packagesPath": "/home/skylab-133/.nuget/packages/",
+      "outputPath": "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Aplicacion/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/apolm01-033/.nuget/NuGet/NuGet.Config"
+        "/home/skylab-133/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5475,11 +5476,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj": {
-              "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj"
+            "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj": {
+              "projectPath": "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Dominio/Dominio.csproj"
             },
-            "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj": {
-              "projectPath": "/home/apolm01-033/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj"
+            "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj": {
+              "projectPath": "/home/skylab-133/Desktop/ProFixAppTaller/Backend/Persistencia/Persistencia.csproj"
             }
           }
         }
@@ -5505,6 +5506,10 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.1.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.10, )"
           },
           "itext7.pdfhtml": {
             "target": "Package",

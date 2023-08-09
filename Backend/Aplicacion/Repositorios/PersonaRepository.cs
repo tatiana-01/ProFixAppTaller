@@ -1,16 +1,14 @@
-using System.Linq.Expressions;
-using Dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Dominio.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using Persistencia;
 
-namespace Infrastructure.Repository;
-
-public class GenericRepository<T> : IGenericRepoInt<T> where T : EntidadGenericaInt
-{
-    private readonly ProFixContext _context;
-
-    public GenericRepository(ProFixContext context)
+namespace Aplicacion.Repositorios;
+    public class PersonaRepository : IPersona
+    {
+    public PersonaRepository(ProFixContext context)
     {
         _context = context;
     }
@@ -66,4 +64,4 @@ public class GenericRepository<T> : IGenericRepoInt<T> where T : EntidadGenerica
     {
         _context.Set<T>().Update(entity);
     }
-}
+    }

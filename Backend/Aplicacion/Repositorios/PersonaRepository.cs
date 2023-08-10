@@ -1,42 +1,48 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Dominio;
 using Dominio.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Persistencia;
 
 namespace Aplicacion.Repositorios;
     public class PersonaRepository : IPersona
     {
+    
+    private readonly ProFixContext _context;
+    
     public PersonaRepository(ProFixContext context)
     {
         _context = context;
     }
 
-    public virtual void Add(T entity)
+    public virtual void Add(Persona entity)
     {
-        _context.Set<T>().Add(entity);
+        _context.Set<Persona>().Add(entity);
     }
 
-    public virtual void AddRange(IEnumerable<T> entities)
+    public virtual void AddRange(IEnumerable<Persona> entities)
     {
-        _context.Set<T>().AddRange(entities);
+        _context.Set<Persona>().AddRange(entities);
     }
 
-    public virtual IEnumerable<T> Find(Expression<Func<T, bool>> expression)
+    public virtual IEnumerable<Persona> Find(Expression<Func<Persona, bool>> expression)
     {
-        return _context.Set<T>().Where(expression);
+        return _context.Set<Persona>().Where(expression);
     }
 
-    public virtual async Task<IEnumerable<T>> GetAllAsync()
+    public virtual async Task<IEnumerable<Persona>> GetAllAsync()
     {
-        return await _context.Set<T>().ToListAsync();
+        return await _context.Set<Persona>().ToListAsync();
     }
 
-    public virtual async Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
+    public virtual async Task<(int totalRegistros, IEnumerable<Persona> registros)> GetAllAsync(int pageIndex, int pageSize, string search)
     {
-        var totalRegistros = await _context.Set<T>().CountAsync();
-        var registros = await _context.Set<T>()
+        var totalRegistros = await _context.Set<Persona>().CountAsync();
+        var registros = await _context.Set<Persona>()
         .Skip((pageIndex - 1) * pageSize)
         .Take(pageSize)
         .ToListAsync();
@@ -45,23 +51,23 @@ namespace Aplicacion.Repositorios;
 
     }
 
-    public virtual async Task<T> GetByIdAsync(int id)
+    public virtual async Task<Persona> GetByIdAsync(string id)
     {
-        return await _context.Set<T>().FindAsync(id);
+        return await _context.Set<Persona>().FindAsync(id);
     }
 
-    public virtual void Remove(T entity)
+    public virtual void Remove(Persona entity)
     {
-        _context.Set<T>().Remove(entity);
+        _context.Set<Persona>().Remove(entity);
     }
 
-    public virtual void RemoveRange(IEnumerable<T> entities)
+    public virtual void RemoveRange(IEnumerable<Persona> entities)
     {
-        _context.Set<T>().RemoveRange(entities);
+        _context.Set<Persona>().RemoveRange(entities);
     }
 
-    public virtual void Update(T entity)
+    public virtual void Update(Persona entity)
     {
-        _context.Set<T>().Update(entity);
+        _context.Set<Persona>().Update(entity);
     }
     }

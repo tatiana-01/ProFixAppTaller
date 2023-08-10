@@ -7,6 +7,6 @@ namespace Dominio.Interfaces
 {
     public interface IUnitOfWork
     {
-        IPersona Persona {get;set;}
+        IPersona Personas {get;}
     }
 }

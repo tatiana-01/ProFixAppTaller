@@ -2,26 +2,31 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aplicacion.Repositorios;
 using Dominio.Interfaces;
 using Persistencia;
 
 namespace Aplicacion.UnitOfWork;
-    public class UnitOfWork : IUnitOfWork, IDisposable
+public class UnitOfWork : IUnitOfWork, IDisposable
 {
+    private PersonaRepository _personas;
     private readonly ProFixContext context;
-    private PaisRepository _paises;
-    public UnitOfWork(DinoShopContext _context)
+
+    public UnitOfWork(ProFixContext _context)
     {
         context = _context;
     }
-    public IPais Paises 
-    { 
-        get{
-            if(_paises == null){
-                _paises = new PaisRepository(context);
+
+    public IPersona Personas
+    {
+        get
+        {
+            if (_personas == null)
+            {
+                _personas = new PersonaRepository(context);
             }
-            return _paises;
-        } 
+            return _personas;
+        }
     }
 
     public void Dispose()
